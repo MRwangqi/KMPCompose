@@ -1,10 +1,10 @@
-package com.codelang.common
+package com.codelang.common.platform
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.painter.Painter
 
 @Composable
-expect fun getDrawableImage(imageName:String,imageFormat:ImageFormat): Painter
+expect fun getDrawableImage(imageName:String,imageFormat: ImageFormat): Painter
 
 @Composable
 expect fun getLogo(): Painter

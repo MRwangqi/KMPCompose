@@ -1,17 +1,15 @@
-package com.codelang.common
+package com.codelang.common.page
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material.Text
-import androidx.compose.material.Button
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
-import androidx.compose.ui.Modifier
 import androidx.compose.ui.layout.ContentScale
+import com.codelang.common.platform.*
 
 @Composable
 fun App() {
@@ -25,7 +23,7 @@ fun App() {
             contentScale = ContentScale.Fit
         )
         Image(
-            painter = getDrawableImage("ic_launcher",ImageFormat.PNG),
+            painter = getDrawableImage("ic_launcher", ImageFormat.PNG),
             contentDescription = "image",
             contentScale = ContentScale.Fit
         )

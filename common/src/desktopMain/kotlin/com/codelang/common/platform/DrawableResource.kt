@@ -1,4 +1,4 @@
-package com.codelang.common
+package com.codelang.common.platform
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.painter.Painter

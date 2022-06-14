@@ -1,6 +1,6 @@
 package com.codelang.android
 
-import com.codelang.common.App
+import com.codelang.common.page.App
 import android.os.Bundle
 import androidx.activity.compose.setContent
 import androidx.appcompat.app.AppCompatActivity

@@ -1,4 +1,4 @@
-package com.codelang.common
+package com.codelang.common.platform
 
 import java.util.*
 

@@ -26,11 +26,6 @@ kotlin {
                 api("com.arkivanov.decompose:decompose:0.6.0-native-compose-01")
             }
         }
-//        val commonTest by getting {
-//            dependencies {
-//                implementation(kotlin("test"))
-//            }
-//        }
         val androidMain by getting {
             dependencies {
                 api("androidx.appcompat:appcompat:1.2.0")
@@ -38,18 +33,12 @@ kotlin {
                 api("com.arkivanov.decompose:extensions-compose-jetpack:0.6.0-native-compose-01")
             }
         }
-//        val androidTest by getting {
-//            dependencies {
-//                implementation("junit:junit:4.13")
-//            }
-//        }
         val desktopMain by getting {
             dependencies {
                 api(compose.preview)
                 api("com.arkivanov.decompose:extensions-compose-jetbrains:0.6.0-native-compose-01")
             }
         }
-//        val desktopTest by getting
     }
 }
 
